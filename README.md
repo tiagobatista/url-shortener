@@ -2,14 +2,15 @@
 
 Basically it’s a service that lets a client submit a long URL which is then shortened to make it easier to use. For example:
 
-![from](https://www.amazon.com/Rust-Programming-Language-2nd/dp/1718503105/ref=sr_1_1?crid=3977W67XGQPJR&keywords=the+rust+programming+language&qid=1685542718&sprefix=the+%2Caps%2C3079&sr=8-1)
+https://www.amazon.com/Rust-Programming-Language-2nd/dp/1718503105/ref=sr_1_1?crid=3977W67XGQPJR&keywords=the+rust+programming+language&qid=1685542718&sprefix=the+%2Caps%2C3079&sr=8-1
 
-could become: ![to](https://tinyurl.com/bdds8utd)
+could become: https://tinyurl.com/bdds8utd
 
 This is typically done with a web based user interface, that let’s users enter a long URL and get back a shortened version of the URL.
 
 For example:
 
+![example](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c6b6034-2981-49ee-99ca-1487a6e46e3c_489x438.png)
 
 The shortening service then keeps a record of the short code, i.e. bdds8utd in the example above and the long URL that it maps to. Then when a client requests the shortened URL the service returns a HTTP redirect code, sending them to the long URL.
 
