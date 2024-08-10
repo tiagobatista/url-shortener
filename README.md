@@ -2,9 +2,9 @@
 
 Basically it’s a service that lets a client submit a long URL which is then shortened to make it easier to use. For example:
 
-https://www.amazon.com/Rust-Programming-Language-2nd/dp/1718503105/ref=sr_1_1?crid=3977W67XGQPJR&keywords=the+rust+programming+language&qid=1685542718&sprefix=the+%2Caps%2C3079&sr=8-1
+![from](https://www.amazon.com/Rust-Programming-Language-2nd/dp/1718503105/ref=sr_1_1?crid=3977W67XGQPJR&keywords=the+rust+programming+language&qid=1685542718&sprefix=the+%2Caps%2C3079&sr=8-1)
 
-could become: https://tinyurl.com/bdds8utd
+could become: ![to](https://tinyurl.com/bdds8utd)
 
 This is typically done with a web based user interface, that let’s users enter a long URL and get back a shortened version of the URL.
 
